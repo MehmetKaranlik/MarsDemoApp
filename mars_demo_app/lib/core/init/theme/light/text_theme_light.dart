@@ -37,8 +37,12 @@ class TextThemeLight {
     fontWeight: FontWeight.bold,
   );
   final TextStyle bodyText = TextStyle(
-      color: const Color(0xff707070),
     fontSize: 15.sp,
+    fontWeight: FontWeight.w600,
+  );
+  final TextStyle bodyText2 = TextStyle(
+    fontSize: 12.sp,
+    fontWeight: FontWeight.bold,
   );
   final TextStyle overline = TextStyle(
     fontSize: 16.sp,

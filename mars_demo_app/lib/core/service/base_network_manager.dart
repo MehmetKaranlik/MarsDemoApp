@@ -31,9 +31,7 @@ class BaseNetworkService {
           baseUrl: NetworkPath.BASE_URL.path,
           headers: accessToken.isNotEmpty ? {HttpHeaders.authorizationHeader: 'Bearer $accessToken'} : null,
         ),
-        onRefreshFail: () async {
-
-        },
+        onRefreshFail: () async {},
         onRefreshToken: (error, newService) async {
          return error;
         },

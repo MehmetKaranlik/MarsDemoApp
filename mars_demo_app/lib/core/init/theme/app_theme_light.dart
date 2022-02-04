@@ -1,7 +1,6 @@
 // ignore_for_file: deprecated_member_use
 
 import 'package:flutter/material.dart';
-import 'package:sizer/sizer.dart';
 
 import '../../constants/app/app_constants.dart';
 import 'app_theme.dart';
@@ -16,50 +15,7 @@ class AppThemeLight extends AppTheme with ILightTheme {
   AppThemeLight._init();
 
   @override
-  ThemeData get theme => ThemeData(
-        dialogBackgroundColor: const Color(0xff000000),
-        buttonColor: colorSchemeLight.greyVariant,
-        textSelectionTheme: const TextSelectionThemeData(
-          cursorColor: Colors.black,
-        ),
-
-        toggleableActiveColor: const Color(0xff00d859),
-        primaryColor: colorSchemeLight.blue,
-        fontFamily: ApplicationConstants.FONT_FAMILY_MEDIUM,
-        colorScheme: _appColorScheme,
-        textTheme: textTheme,
-
-        shadowColor: Colors.grey,
-        textSelectionHandleColor: colorSchemeLight.filmRed,
-        accentColor: const Color(0xffFEC92E),
-        // checkboxTheme: CheckboxThemeData(
-        //     fillColor: MaterialStateProperty.all(const Color(0xffFEC92E))),
-        appBarTheme: ThemeData.light().appBarTheme.copyWith(
-            color: Colors.black,
-            centerTitle: true,
-            toolbarHeight: 5.h,
-            iconTheme: IconThemeData(color: Colors.white, size: 21.sp)),
-        inputDecorationTheme: inputDecorationTheme(),
-        scaffoldBackgroundColor: Colors.black,
-        floatingActionButtonTheme: ThemeData.light().floatingActionButtonTheme.copyWith(
-              backgroundColor: colorSchemeLight.blue,
-            ),
-        buttonTheme: ThemeData.light().buttonTheme.copyWith(
-              colorScheme: const ColorScheme.light(
-                onError: Color(0xffFF2D55),
-              ),
-            ),
-        tabBarTheme: tabBarTheme,
-        selectedRowColor: colorSchemeLight.brightLight,
-        disabledColor: colorSchemeLight.white,
-        highlightColor: colorSchemeLight.lightRed,
-        dividerColor: colorSchemeLight.mildGrey,
-        canvasColor: colorSchemeLight.lightGrey,
-        hintColor: colorSchemeLight.greyBlue,
-        textSelectionColor: colorSchemeLight.green,
-        cardColor: colorSchemeLight.paleRed,
-        cursorColor: colorSchemeLight.textGrey,
-      );
+  ThemeData get theme => ThemeData(colorScheme: _appColorScheme, textTheme: textTheme);
 
   InputDecorationTheme inputDecorationTheme() {
     return const InputDecorationTheme(
@@ -90,25 +46,25 @@ class AppThemeLight extends AppTheme with ILightTheme {
             headline3: textThemeLight!.headline3,
             headline4: textThemeLight!.headline4,
             bodyText1: textThemeLight!.bodyText,
+            bodyText2: textThemeLight!.bodyText2,
             overline: textThemeLight!.headline3)
-        .apply(bodyColor: colorSchemeLight.blue, fontFamily: ApplicationConstants.FONT_FAMILY_BOLD);
+        .apply(bodyColor: colorSchemeLight.colorText, fontFamily: ApplicationConstants.FONT_FAMILY_BOLD);
   }
 
   ColorScheme get _appColorScheme {
     return ColorScheme(
-      primary: colorSchemeLight.blue,
-      primaryVariant: Colors.black,
-      secondary: colorSchemeLight.red,
-      secondaryVariant: colorSchemeLight.redVariant,
-      surface: colorSchemeLight.lightGrey,
-      onPrimary: colorSchemeLight.greyVariant,
-      onSecondary: colorSchemeLight.yellow,
-      onSurface: const Color(0xffFFFFFF),
-      onBackground: colorSchemeLight.deepDarkGrey,
-
-      onError: colorSchemeLight.red,
-      background: colorSchemeLight.blackVariant,
-      error: colorSchemeLight.red, //unused
+      primary: colorSchemeLight.colorPrimary,
+      primaryVariant: colorSchemeLight.colorText,
+      secondary: colorSchemeLight.colorGray,
+      secondaryVariant: colorSchemeLight.colorGreyVariant,
+      surface: Colors.transparent, //unused
+      onPrimary: Colors.transparent, //unused
+      onSecondary: Colors.transparent, //unused
+      onSurface: Colors.transparent, //unused
+      onBackground: Colors.transparent, //unused
+      onError: Colors.transparent, //unused
+      background: Colors.transparent, //unused
+      error: Colors.transparent, //unused
       brightness: Brightness.light,
     );
   }
