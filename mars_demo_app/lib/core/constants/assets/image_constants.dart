@@ -6,13 +6,11 @@ class ImageConstants {
   }
 
   ImageConstants._init();
-  String get onboardFirst => toPng('onboard1');
-  String get onboardSecond => toPng('onboard2');
-  String get onboardThird => toPng('onboard3');
-  String get onboardFourth => toPng('onboard4');
-  String get favreaWhite => toPng('favrea_white');
-  String get harryPoter => toPng('harry');
-  String get starOff => toPng('star_off');
+
+  String get starFilled => toPng('star_filled');
+  String get iceCream => toPng('icecream');
+  String get tripleIceCream => toPng('triple_icecream');
+  String get iceCreamCup => toPng('icecream_cup');
 
   String toPng(value) => 'assets/image/$value.png';
 }

@@ -23,4 +23,6 @@ extension PaddingExtensionSymetric on BuildContext {
   EdgeInsets get paddingMediumHorizontal => EdgeInsets.symmetric(horizontal: mediumValue);
   EdgeInsets get paddingHighHorizontal => EdgeInsets.symmetric(horizontal: highValue);
   EdgeInsets get outerPadding => EdgeInsets.symmetric(horizontal: lowValue / 2, vertical: lowValue / 2);
+  EdgeInsets get outerPaddingWithoutBottom =>
+      EdgeInsets.only(left: lowValue / 2, right: lowValue / 2, top: lowValue / 2);
 }

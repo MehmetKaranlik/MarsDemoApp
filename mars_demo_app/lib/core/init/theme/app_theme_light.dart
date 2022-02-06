@@ -57,14 +57,14 @@ class AppThemeLight extends AppTheme with ILightTheme {
       primaryVariant: colorSchemeLight.colorText,
       secondary: colorSchemeLight.colorGray,
       secondaryVariant: colorSchemeLight.colorGreyVariant,
-      surface: Colors.transparent, //unused
-      onPrimary: Colors.transparent, //unused
+      surface: colorSchemeLight.iceCreamBackgroundVariant, //unused
+      onPrimary: colorSchemeLight.ratingYellow,
       onSecondary: Colors.transparent, //unused
-      onSurface: Colors.transparent, //unused
-      onBackground: Colors.transparent, //unused
+      onSurface: colorSchemeLight.iceCreamBackground,
+      onBackground: colorSchemeLight.backgroundColor,
       onError: Colors.transparent, //unused
       background: Colors.transparent, //unused
-      error: Colors.transparent, //unused
+      error: colorSchemeLight.strawberryColor,
       brightness: Brightness.light,
     );
   }
