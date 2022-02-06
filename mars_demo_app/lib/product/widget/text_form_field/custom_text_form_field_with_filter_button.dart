@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get_utils/src/extensions/context_extensions.dart';
+import 'package:get/get_utils/src/extensions/internacionalization.dart';
 import 'package:sizer/sizer.dart';
 
 class CustomTextFieldWithFilter extends StatelessWidget {
@@ -9,8 +10,15 @@ class CustomTextFieldWithFilter extends StatelessWidget {
     required this.onTap,
   }) : super(key: key);
 
-  OutlineInputBorder outlineInputBorder = OutlineInputBorder(
-      borderSide: const BorderSide(width: 0, color: Colors.transparent), borderRadius: BorderRadius.circular(1.h));
+  final OutlineInputBorder outlineInputBorder = OutlineInputBorder(
+    borderSide: const BorderSide(
+      width: 0,
+      color: Colors.transparent,
+    ),
+    borderRadius: BorderRadius.circular(
+      1.h,
+    ),
+  );
 
   @override
   Widget build(BuildContext context) {
@@ -29,7 +37,7 @@ class CustomTextFieldWithFilter extends StatelessWidget {
       padding: EdgeInsets.only(right: 8.w),
       child: TextFormField(
         decoration: InputDecoration(
-            labelText: 'Search',
+            labelText: 'search'.tr,
             prefixIcon: const Icon(Icons.search),
             fillColor: context.theme.colorScheme.secondaryVariant,
             filled: true,

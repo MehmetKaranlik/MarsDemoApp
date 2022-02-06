@@ -81,7 +81,7 @@ class HomeView extends BaseView<HomeViewModel> {
     return Padding(
       padding: EdgeInsets.only(left: context.lowValue / 2),
       child: Text(
-        "Top Item",
+        'topItem'.tr,
         style: context.theme.textTheme.headline6!.copyWith(
           color: context.theme.colorScheme.primaryVariant,
         ),
@@ -109,7 +109,7 @@ class HomeView extends BaseView<HomeViewModel> {
     return Padding(
       padding: EdgeInsets.symmetric(horizontal: context.lowValue / 2),
       child: Text(
-        "Popular Ice Cream",
+        'popularIceCream'.tr,
         style: context.theme.textTheme.headline6!.copyWith(
           color: context.theme.colorScheme.primaryVariant,
         ),
@@ -139,7 +139,7 @@ class HomeView extends BaseView<HomeViewModel> {
 
   Text _buildTopFlavoursHeader(BuildContext context) {
     return Text(
-      "Top Flavours",
+      'topFlavours'.tr,
       style: context.theme.textTheme.headline6!.copyWith(
         color: context.theme.colorScheme.primaryVariant,
       ),
@@ -165,14 +165,14 @@ class HomeView extends BaseView<HomeViewModel> {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Text(
-          "Hey Eddie",
+          'hey'.tr + " " + "Eddie",
           style: context.theme.textTheme.headline4!.copyWith(color: context.theme.colorScheme.primaryVariant),
         ),
         DynamicVerticalSpace(
           height: 0.5.h,
         ),
         Text(
-          "What flavor do you like to eat?",
+          'suggestionText'.tr,
           style: context.theme.textTheme.bodyText2!.copyWith(color: context.theme.colorScheme.secondary),
         ),
       ],

@@ -62,7 +62,7 @@ class DetailView extends BaseView<DetailViewModel> {
 
   InkWell _buildAddToCardButton(BuildContext context) {
     return InkWell(
-      onTap: () => Get.toNamed('/product/detail/reviews'),
+      onTap: () => null,
       child: _buildAddToCardButtonBody(context),
     );
   }
@@ -79,7 +79,7 @@ class DetailView extends BaseView<DetailViewModel> {
 
   Text _buildAddtoCardButtonLabel(BuildContext context) {
     return Text(
-      'Add to Card',
+      'addToCard'.tr,
       style: context.textTheme.subtitle1!.copyWith(
         color: context.theme.colorScheme.onBackground,
       ),
@@ -134,7 +134,7 @@ class DetailView extends BaseView<DetailViewModel> {
           width: 2.w,
         ),
         Text(
-          "4.9 (229 Reviews)",
+          "4.9" + "(229" + 'reviews'.tr + ')',
           style: context.theme.textTheme.caption!.copyWith(color: context.theme.colorScheme.secondary),
         ),
       ],

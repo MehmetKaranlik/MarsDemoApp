@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
           debugShowCheckedModeBanner: false,
           defaultTransition: Transition.fadeIn,
           initialBinding: BaseBinding(),
-          title: 'favrea',
+          title: 'MarsDemoApp',
           getPages: AppPages.pages,
           translationsKeys: AppTranslation.translations,
           locale: Get.deviceLocale,
