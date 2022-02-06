@@ -1,16 +1,7 @@
 # mars_demo_app
 
-A new Flutter project.
+<h1> Mars Software Demo App Challange </h1>
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Ekran Kaydı 2022-02-06 16 33 37](https://user-images.githubusercontent.com/89414084/152684591-73ec40d7-2c2d-40ac-8197-2ec0af0c3e90.gif)
+![Ekran Resmi 2022-02-06 16 31 28](https://user-images.githubusercontent.com/89414084/152684724-0867f656-9ffd-41bd-a2d9-ffca742cdff2.png)
+![Ekran Resmi 2022-02-06 16 31 21](https://user-images.githubusercontent.com/89414084/152684727-76c9b6a1-3791-4c61-95c6-1388d8227c6b.png)
