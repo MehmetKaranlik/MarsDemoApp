@@ -1,6 +1,7 @@
 # mars_demo_app
 
 <h1> Mars Software Demo App Challange </h1>
-![Ekran Kaydı 2022-02-06 16 33 37](https://user-images.githubusercontent.com/89414084/152684452-dd6f74d2-081c-4cb6-be14-93ba1e1c3448.gif)
-![Ekran Resmi 2022-02-06 16 31 21](https://user-images.githubusercontent.com/89414084/152684455-bec8e184-eb6a-4666-bcad-0d6a240fe5ff.png)
-![Ekran Resmi 2022-02-06 16 31 21](https://user-images.githubusercontent.com/89414084/152684548-993ffbe4-6f0b-4b80-ac22-1ca5204f1f1e.png)
+
+![Ekran Kaydı 2022-02-06 16 33 37](https://user-images.githubusercontent.com/89414084/152684591-73ec40d7-2c2d-40ac-8197-2ec0af0c3e90.gif)
+![Ekran Resmi 2022-02-06 16 31 28](https://user-images.githubusercontent.com/89414084/152684724-0867f656-9ffd-41bd-a2d9-ffca742cdff2.png)
+![Ekran Resmi 2022-02-06 16 31 21](https://user-images.githubusercontent.com/89414084/152684727-76c9b6a1-3791-4c61-95c6-1388d8227c6b.png)
