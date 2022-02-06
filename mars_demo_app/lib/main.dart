@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
-import 'package:mars_demo_app/view/home/view/home_view.dart';
+import 'view/home/view/home_view.dart';
 import 'package:sizer/sizer.dart';
 import 'core/base/binding/base_bindings.dart';
 import 'core/init/cache/locale_manager.dart';

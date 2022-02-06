@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:get/get_utils/src/extensions/context_extensions.dart';
-import 'package:mars_demo_app/core/constants/assets/image_constants.dart';
-import 'package:mars_demo_app/core/extensions/padding_insets.dart';
+import '../../../core/constants/assets/image_constants.dart';
+import '../../../core/extensions/padding_insets.dart';
 import 'package:sizer/sizer.dart';
 
 class PopularIceCreamCard extends StatelessWidget {

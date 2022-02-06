@@ -1,6 +1,6 @@
 import 'package:get/get.dart';
-import 'package:mars_demo_app/view/detail/view_model/detail_view_model.dart';
-import 'package:mars_demo_app/view/home/view_model/home_view_model.dart';
+import '../../../view/detail/view_model/detail_view_model.dart';
+import '../../../view/home/view_model/home_view_model.dart';
 
 class BaseBinding implements Bindings {
   @override

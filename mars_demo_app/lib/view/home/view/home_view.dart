@@ -1,18 +1,18 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:mars_demo_app/core/base/view/base_view.dart';
-import 'package:mars_demo_app/core/constants/assets/image_constants.dart';
-import 'package:mars_demo_app/core/constants/routes/routes_constants.dart';
-import 'package:mars_demo_app/core/extensions/padding_insets.dart';
-import 'package:mars_demo_app/core/widget/sizedBox/dynamic_horizontol_space.dart';
-import 'package:mars_demo_app/core/widget/sizedBox/dynamic_veritical_space.dart';
-import 'package:mars_demo_app/product/widget/cards/popular_icecream_card.dart';
-import 'package:mars_demo_app/product/widget/cards/top_flavour_preview_card.dart';
-import 'package:mars_demo_app/product/widget/cards/top_item_preview_card.dart';
-import 'package:mars_demo_app/product/widget/container/custom_avatar.dart';
-import 'package:mars_demo_app/product/widget/text_form_field/custom_text_form_field_with_filter_button.dart';
-import 'package:mars_demo_app/view/home/view_model/home_view_model.dart';
+import '../../../core/base/view/base_view.dart';
+import '../../../core/constants/assets/image_constants.dart';
+import '../../../core/constants/routes/routes_constants.dart';
+import '../../../core/extensions/padding_insets.dart';
+import '../../../core/widget/sizedBox/dynamic_horizontol_space.dart';
+import '../../../core/widget/sizedBox/dynamic_veritical_space.dart';
+import '../../../product/widget/cards/popular_icecream_card.dart';
+import '../../../product/widget/cards/top_flavour_preview_card.dart';
+import '../../../product/widget/cards/top_item_preview_card.dart';
+import '../../../product/widget/container/custom_avatar.dart';
+import '../../../product/widget/text_form_field/custom_text_form_field_with_filter_button.dart';
+import '../view_model/home_view_model.dart';
 import 'package:sizer/sizer.dart';
 
 class HomeView extends BaseView<HomeViewModel> {

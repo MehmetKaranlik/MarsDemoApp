@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:mars_demo_app/core/base/view/base_view.dart';
-import 'package:mars_demo_app/core/extensions/gradient_extension.dart';
-import 'package:mars_demo_app/core/extensions/padding_insets.dart';
-import 'package:mars_demo_app/core/widget/sizedBox/dynamic_horizontol_space.dart';
-import 'package:mars_demo_app/core/widget/sizedBox/dynamic_veritical_space.dart';
-import 'package:mars_demo_app/product/widget/clipper/custom_clipper.dart';
-import 'package:mars_demo_app/product/widget/stepper/count_stepper.dart';
-import 'package:mars_demo_app/product/widget/util/price_text.dart';
-import 'package:mars_demo_app/product/widget/util/rating_start_bar.dart';
-import 'package:mars_demo_app/view/detail/view_model/detail_view_model.dart';
+import '../../../core/base/view/base_view.dart';
+import '../../../core/extensions/gradient_extension.dart';
+import '../../../core/extensions/padding_insets.dart';
+import '../../../core/widget/sizedBox/dynamic_horizontol_space.dart';
+import '../../../core/widget/sizedBox/dynamic_veritical_space.dart';
+import '../../../product/widget/clipper/custom_clipper.dart';
+import '../../../product/widget/stepper/count_stepper.dart';
+import '../../../product/widget/util/price_text.dart';
+import '../../../product/widget/util/rating_start_bar.dart';
+import '../view_model/detail_view_model.dart';
 import 'package:sizer/sizer.dart';
 
 class DetailView extends BaseView<DetailViewModel> {

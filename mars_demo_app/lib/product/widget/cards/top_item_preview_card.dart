@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get_utils/src/extensions/context_extensions.dart';
-import 'package:mars_demo_app/core/extensions/padding_insets.dart';
-import 'package:mars_demo_app/core/widget/sizedBox/dynamic_veritical_space.dart';
-import 'package:mars_demo_app/product/widget/button/add_button.dart';
+import '../../../core/extensions/padding_insets.dart';
+import '../../../core/widget/sizedBox/dynamic_veritical_space.dart';
+import '../button/add_button.dart';
 import 'package:sizer/sizer.dart';
 
 class TopItemPreviewCard extends StatelessWidget {

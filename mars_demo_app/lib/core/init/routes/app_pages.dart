@@ -1,7 +1,7 @@
 import 'package:flutter/widgets.dart';
 import 'package:get/get.dart';
-import 'package:mars_demo_app/view/detail/view/detail_view.dart';
-import 'package:mars_demo_app/view/home/view/home_view.dart';
+import '../../../view/detail/view/detail_view.dart';
+import '../../../view/home/view/home_view.dart';
 import '../../constants/routes/routes_constants.dart';
 
 class AppPages {

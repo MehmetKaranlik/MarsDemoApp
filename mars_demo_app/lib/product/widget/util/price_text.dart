@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:get/get_utils/src/extensions/context_extensions.dart';
-import 'package:mars_demo_app/core/widget/sizedBox/dynamic_horizontol_space.dart';
+import '../../../core/widget/sizedBox/dynamic_horizontol_space.dart';
 import 'package:sizer/sizer.dart';
 
 class PriceText extends StatelessWidget {

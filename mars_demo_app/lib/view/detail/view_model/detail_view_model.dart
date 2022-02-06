@@ -1,5 +1,5 @@
 import 'package:get/get.dart';
-import 'package:mars_demo_app/core/base/controller/base_controller.dart';
+import '../../../core/base/controller/base_controller.dart';
 
 class DetailViewModel extends BaseController {
   late final Map<String, String> arguments;
